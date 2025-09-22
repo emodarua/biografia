@@ -61,7 +61,6 @@ h1{
 .texto{
     border: solid 2px purple;
     font-family: open;
-    max-width: 97%;
 }
 .texto p{
   font-size: 23px;
@@ -93,10 +92,45 @@ main .texto h2{
   height: auto;
   margin: 15px;
   border: solid 0.25px#ffff;
+  margin-top: 23px;
+  margin-bottom: 30px;
 }
 #logo{
   opacity: 0.8;
 }
+
+/* curiosidades */
+.curiosidades{
+  display: flex;
+  flex-direction:row-reverse;
+  align-items: center;
+}
+.video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li{
+  position: relative;
+  top: 20px;
+  left: 30px;
+  font-size: 25px;
+  line-height: 60px;
+}
+
+.naosei{
+  margin-top: 70px;
+  font-size:33px;
+}
+
+#fim{
+  margin-bottom: 50px;
+}
+iframe{
+  size: 200px;
+}
+
 
 
 blockquote {
