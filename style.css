@@ -45,7 +45,7 @@ footer{
 }
 h1{
     position: absolute;
-    color: purple;
+    color: rgb(219, 219, 219);
     top: 210px;
     font-size: 90px;
 }
@@ -59,41 +59,65 @@ h1{
 
 /* configurando os textos e "main" */
 .texto{
-    color: purple;
+    border: solid 2px purple;
     font-family: open;
+    max-width: 97%;
 }
- main {
-      padding: 50px 20px;
-      max-width: 900px;
-      margin: 0 auto;
-      line-height: 1.7;
-      color: #eee;
-    }
+.texto p{
+  font-size: 23px;
+  color: rgb(231, 212, 231);
+  line-height: 35px;
+  margin-bottom:18px;
 
-    main img {
-      width: 100%;
-      height: auto;
-      margin: 20px 0;
-      border-radius: 10px;
-    }
+}
+main {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.7;
+  color: #eee;
+}
+main .texto h2{
+  font-size: 35px;
+  padding-bottom: 15px;
+}
 
-    blockquote {
-      font-style: italic;
-      background-color: rgba(255,255,255,0.1);
-      padding: 15px 20px;
-      margin: 30px 0;
-      border-left: 5px solid #ff4081;
-    }
+#pailogo{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+.logo{  
+  max-width: 45%;
+  max-height: 55vh ;
+  height: auto;
+  margin: 15px;
+  border: solid 0.25px#ffff;
+}
+#logo{
+  opacity: 0.8;
+}
 
-    /* Responsividade */
-    @media(max-width: 768px){
-      h1 {
-        font-size: 2.5rem;
-      }
-      .subtitulo {
-        font-size: 1rem;
-      }
-    }
+
+blockquote {
+font-style: italic;
+font-size: 20px;
+background-color: rgba(255,255,255,0.1);
+padding: 15px 20px;
+ margin: 30px 0;
+border-left: 5px solid purple;
+}
+
+
+ /* Responsividade */
+@media(max-width: 768px){
+h1{
+  font-size: 2.5rem;
+}
+.subtitulo {
+  font-size: 1rem;
+ }
+}
 
 
 
